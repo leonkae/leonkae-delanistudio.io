@@ -12,12 +12,20 @@ body{
     margin: 3px solid red;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .landing-text{
     margin: 3px solid red;
     text-align: center;
     
+}
+
+.logo{
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 
