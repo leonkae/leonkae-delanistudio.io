@@ -1,74 +1,82 @@
-
-
-html{
-    height: 100%;
-
+html {
+  height: 100%;
 }
-body{
-    margin: 0;
-    
+body {
+  margin: 0;
 }
 /* cotainer1 styles */
-.container1{
-    display: flex;
-    flex-direction: column;
-    height: 1000px;
-    background-image: url(images/h_img.jpg);
-    justify-items: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+.container1 {
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+  background-image: url(images/h_img.jpg);
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
-.landing-text{
-    margin: 3px solid red;
-    text-align: center;
-    
+.landing-text {
+  margin: 3px solid red;
+  text-align: center;
 }
 
-.container1 .landing-text h2{
-    font-size: x-large;
+.container1 .landing-text h2 {
+  font-size: x-large;
 }
 
-.container1 .landing-text h1{
-    font-size: xx-large;
+.container1 .landing-text h1 {
+  font-size: xx-large;
 }
 
-.container1 .landing-text p{
-    font-size: large;
+.container1 .landing-text p {
+  font-size: large;
 }
 /* logo styles */
-.logo{
-    margin: 100px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-} 
-
+.logo {
+  margin: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* container2 styles */
-.about h1{
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
+
+.about h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
-.about p{
-    text-align: center;
-    margin-top: 40px;
-    font-family: 'Poppins', sans-serif;
-     
+.about p {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
-/* container */
-.container3{
-    background-image: url(images/s_image.jpg);
+/* container3 */
+.container3 {
+  background-image: url(images/s_image.jpg);
 }
-.services{
-    margin-top: 50px;
-    border: 3px solid red;
-    height: 400px
+.services {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  border: 3px solid red;
+  height: 400px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
 
+.services h1 {
+  color: white;
+  font-size: xx-large;
+}
+.services p {
+  color: white;
+  font-size: large;
 }
