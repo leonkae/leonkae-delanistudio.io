@@ -98,25 +98,33 @@ body {
   align-items: center;
   text-align: center;
   padding: 20px;
-
 }
 /* conatainer5 */
-.container5{
-    border: 3px solid red;
-    height: 300px;
+.container5 {
+  border: 3px solid red;
+  height: 800px;
 }
 
-.portfolio{
-    text-align: center;
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
+.portfolio {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 
-.portfolio-images{
-    display: grid;
-    flex-direction: row;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: space-between;
-    
+.portfolio-images {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
 }
 
+.portfolio-images2 {
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
