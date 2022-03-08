@@ -88,12 +88,15 @@ body {
 }
 .text-wrapper {
   text-align: center;
-  padding: 25px;
   font-family: "Poppins", sans-serif;
 }
 .logo-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-decoration: line-through;
   padding: 20px;
+  
 }
