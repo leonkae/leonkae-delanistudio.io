@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+
+}
+body{
+    margin: 0;
+    background-image: url(images/h_img.jpg);
+}
+
+.container{
+    
+    margin: 3px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-text{
+    margin: 3px solid red;
+    text-align: center;
+    
+}
+
+
