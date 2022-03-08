@@ -74,6 +74,7 @@ body {
 .services h1 {
   color: white;
   font-size: xx-large;
+  text-transform: uppercase;
 }
 .services p {
   color: white;
@@ -81,14 +82,14 @@ body {
 }
 
 /* container 4 */
-
 .container4 {
-  border: 3px solid red;
   height: 300px;
+  margin: 75px;
 }
 .text-wrapper {
   text-align: center;
   font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
 .logo-wrapper {
   display: flex;
@@ -96,10 +97,25 @@ body {
   justify-content: space-between;
   align-items: center;
   text-align: center;
-  text-decoration: line-through;
   padding: 20px;
 
 }
-.logo-wrapper .image1{
+/* conatainer5 */
+.container5{
+    border: 3px solid red;
+    height: 300px;
+}
+
+.portfolio{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.portfolio-images{
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
     
 }
