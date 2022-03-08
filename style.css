@@ -1,18 +1,21 @@
+
+
 html{
     height: 100%;
 
 }
 body{
     margin: 0;
-    background-image: url(images/h_img.jpg);
-}
-
-.container{
     
-    margin: 3px solid red;
+}
+/* cotainer1 styles */
+.container1{
+    height: 1000px;
+    background-image: url(images/h_img.jpg);
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .landing-text{
@@ -21,11 +24,25 @@ body{
     
 }
 
+.container1 .landing-text h2{
+    font-size: x-large;
+}
+
+.container1 .landing-text h1{
+    font-size: xx-large;
+}
+
+.container1 .landing-text p{
+    font-size: large;
+}
+/* logo styles */
 .logo{
-    margin: 100px;
+    /* margin: 100px; */
     justify-content: center;
     align-items: center;
     text-align: center;
-}
+} 
 
+
+/* container2 styles */
 
