@@ -3,6 +3,7 @@ html {
 }
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 /* cotainer1 styles */
 .container1 {
