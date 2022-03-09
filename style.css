@@ -123,24 +123,25 @@ body {
 .portfolio-images2 {
   display: flex;
   flex-direction: row;
-   grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   margin: 80px;
-
 }
 /* container6 */
 
-/* .container6{
+.container6 {
   border: 3px solid red;
-  height: 400px;
-  text-align: center;
-  /* background-image: url(images/c_image.jpg); */
+  margin-top: 50px;
+  background-image: url(images/c_image.jpg);
+  height: 600px;
 }
 
-/* .contact-wrapper{
-    font-family: "Poppins", sans-serif;
-    margin: 10px;
-    
-} */ 
-
+.text- {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  font-size: x-large;
+}
