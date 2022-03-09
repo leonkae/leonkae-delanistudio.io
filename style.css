@@ -123,8 +123,22 @@ body {
 .portfolio-images2 {
   display: flex;
   flex-direction: row;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr; 
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+
+}
+/* container6 */
+
+.container6{
+  border: 3px solid red;
+  height: 400px;
+  text-align: center;
+}
+
+.contact-wrapper{
+    font-family: "Poppins", sans-serif;
+    margin: 10px;
+    background-image: url();
 }
