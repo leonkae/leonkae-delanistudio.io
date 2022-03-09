@@ -103,6 +103,7 @@ body {
 .container5 {
   /* border: 3px solid red; */
   height: 800px;
+  justify-content: center;
 }
 
 .portfolio {
@@ -131,7 +132,6 @@ body {
 /* container6 */
 
 .container6 {
-  border: 3px solid red;
   margin-top: 50px;
   background-image: url(images/c_image.jpg);
   height: 600px;
@@ -144,5 +144,15 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 20px;
   font-size: x-large;
-  
 }
+
+.container7 {
+  border: 3px solid red;
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 80px;
+
+}
+
