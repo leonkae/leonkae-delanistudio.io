@@ -145,14 +145,22 @@ body {
   margin: 20px;
   font-size: x-large;
 }
-
+/* container7 */
 .container7 {
-  border: 3px solid red;
   display: flex;
-  height: 300px;
+  height: 50px;
   justify-content: space-between;
   align-items: center;
   margin: 80px;
   
 }
 
+.footer{
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: large;
+
+}
+.footer p{
+  font-size: larger;
+}
