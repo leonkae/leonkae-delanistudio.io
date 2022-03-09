@@ -117,7 +117,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 80px;
 }
 
 .portfolio-images2 {
@@ -126,19 +126,21 @@ body {
    grid-template-columns: 1fr 1fr 1fr 1fr; 
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
+  margin: 80px;
 
 }
 /* container6 */
 
-.container6{
+/* .container6{
   border: 3px solid red;
   height: 400px;
   text-align: center;
+  /* background-image: url(images/c_image.jpg); */
 }
 
-.contact-wrapper{
+/* .contact-wrapper{
     font-family: "Poppins", sans-serif;
     margin: 10px;
-    background-image: url();
-}
+    
+} */ 
+
