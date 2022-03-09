@@ -95,7 +95,7 @@ body {
 .logo-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   text-align: center;
   padding: 20px;
