@@ -113,7 +113,6 @@ body {
 
 .text-1 {
   display: none;
-  border: 3px solid red;
   text-align: center;
   font-size: larger;
   max-width: 352px;
@@ -124,7 +123,6 @@ body {
 
 .text-2 {
   display: none;
-  border: 3px solid red;
   text-align: center;
   font-size: larger;
   max-width: 352px;
@@ -133,7 +131,6 @@ body {
 }
 .text-3 {
   display: none;
-  border: 3px solid red;
   text-align: center;
   font-size: larger;
   max-width: 352px;
