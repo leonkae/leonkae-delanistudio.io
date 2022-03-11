@@ -5,6 +5,12 @@ body {
   margin: 0;
   scroll-behavior: smooth;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* cotainer1 styles */
 .container1 {
   display: flex;
@@ -41,7 +47,7 @@ body {
   text-align: center;
 }
 /* scroll styles */
-.scroll-image{
+.scroll-image {
   margin-top: 170px;
 }
 
@@ -99,42 +105,29 @@ body {
 .logo-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
   text-align: center;
   padding: 20px;
 }
 /* conatainer5 */
-.container5 {
-  /* border: 3px solid red; */
-  height: 800px;
-  justify-content: center;
-}
-
 .portfolio {
-  text-align: center;
-  font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.heading {
   text-transform: uppercase;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
 }
-
-.portfolio-images {
-  display: flex;
-  flex-direction: row;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
-  align-items: center;
-  margin: 80px;
+.container5 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
-
-.portfolio-images2 {
-  display: flex;
-  flex-direction: row;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-content: space-between;
-  align-items: center;
-  margin: 80px;
-}
-
 
 /* container6 */
 
@@ -159,17 +152,14 @@ body {
   justify-content: center;
   align-items: center;
   margin: 80px;
-  
 }
 
-.footer{
+.footer {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: large;
-
 }
-.footer p{
+.footer p {
   font-size: larger;
 }
 /* testing */
-
