@@ -1,6 +1,6 @@
-// $(document).ready (function(){
-//     $("#button-element").click(function(){
-//         $("h2").css("color", "dodgerblue")
+
+
+
 $(document).ready(function(){
   $("#icon1").click(function(){
       $(".text-1").toggle()
