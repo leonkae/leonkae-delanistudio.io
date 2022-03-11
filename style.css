@@ -146,9 +146,6 @@ body {
   padding: 50px 0;
 }
 
-
-
-
 /* section portfolio */
  .heading {
   text-transform: uppercase;
@@ -199,3 +196,8 @@ body {
   font-size: larger;
 }
 
+.scroll-button{
+  border: none;
+  text-decoration: none;
+  background: none;
+}
