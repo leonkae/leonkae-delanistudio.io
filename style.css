@@ -118,7 +118,7 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+
 }
 
 .text-2 {
@@ -128,7 +128,7 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+  
 }
 .text-3 {
   display: none;
@@ -137,7 +137,7 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  margin: 10px;
+  
 }
 
 .portfolio {
@@ -146,35 +146,24 @@ body {
   padding: 50px 0;
 }
 
-.heading {
+
+
+
+/* section portfolio */
+ .heading {
   text-transform: uppercase;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  margin: 150px;
 }
 .container5 {
   margin-top: 30px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-}
-.box {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-}
-.box img {
-  max-width: 100%;
-  display: block;
-}
-.overlay {
-  position: absolute;
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Poppins", sans-serif;
-  color: #565656;
+  grid-gap: 50px;
+  grid-template-columns: repeat(4, 1fr);
 }
 /* container6 */
 
