@@ -110,6 +110,9 @@ body {
   text-align: center;
   padding: 120px;
 }
+.image-wrapper{
+  width: 30%;
+}
 
 .text-1 {
   display: none;
@@ -155,6 +158,7 @@ body {
   margin: 150px;
 }
 .container5 {
+  position: relative;
   margin-top: 30px;
   display: grid;
   justify-content: center;
@@ -162,8 +166,28 @@ body {
   grid-gap: 50px;
   grid-template-columns: repeat(4, 1fr);
 }
-/* container6 */
 
+ .portfolio-box{
+   position: relative;
+} 
+
+
+.overlay-text{
+  position: absolute;
+  background-color: rgba(30, 143, 255, 0.452) ;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+/* container6 */
 .container6 {
   margin-top: 50px;
   background-image: url(images/c_image.jpg);
