@@ -40,6 +40,10 @@ body {
   align-items: center;
   text-align: center;
 }
+/* scroll styles */
+.scroll-image{
+  margin-top: 170px;
+}
 
 /* container2 styles */
 
