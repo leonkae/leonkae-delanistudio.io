@@ -174,7 +174,7 @@ body {
 
 .overlay-text{
   position: absolute;
-  background-color: rgba(30, 143, 255, 0.452) ;
+  background-color: rgba(255, 255, 255, 0.822) ;
   top: 0;
   left: 0;
   height: 100%;
@@ -184,7 +184,7 @@ body {
   height: 100%;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   
 }
 /* container6 */
