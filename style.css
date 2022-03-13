@@ -110,7 +110,7 @@ body {
   text-align: center;
   padding: 120px;
 }
-.image-wrapper{
+.image-wrapper {
   width: 30%;
 }
 
@@ -121,7 +121,6 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-
 }
 
 .text-2 {
@@ -131,7 +130,6 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  
 }
 .text-3 {
   display: none;
@@ -140,7 +138,6 @@ body {
   max-width: 352px;
   height: 100px;
   font-family: "Poppins", sans-serif;
-  
 }
 
 .portfolio {
@@ -150,7 +147,7 @@ body {
 }
 
 /* section portfolio */
- .heading {
+.heading {
   text-transform: uppercase;
   font-size: 50px;
   font-family: "Poppins", sans-serif;
@@ -167,14 +164,13 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
- .portfolio-box{
-   position: relative;
-} 
+.portfolio-box {
+  position: relative;
+}
 
-
-.overlay-text{
+.overlay-text {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.822) ;
+  background-color: rgba(255, 255, 255, 0.822);
   top: 0;
   left: 0;
   height: 100%;
@@ -185,7 +181,6 @@ body {
   justify-content: center;
   align-items: center;
   color: black;
-  
 }
 /* container6 */
 .container6 {
@@ -220,14 +215,27 @@ body {
   font-size: larger;
 }
 
-.scroll-button{
+.scroll-button {
   border: none;
   text-decoration: none;
   background: none;
 }
 /* contact us */
- 
- .name-wrapper{
+
+.name-wrapper {
+  justify-content: center;
+  align-items: center;
   display: flex;
   font-family: "Poppins", sans-serif;
-} 
+}
+.name-holder{
+  background-image: none;
+  margin: 30px;
+  background: none;
+}
+.email{
+  margin: 10px;
+}
+.subject {
+  margin: 10px;
+}
