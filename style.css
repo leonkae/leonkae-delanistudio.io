@@ -228,15 +228,21 @@ body {
   display: flex;
   font-family: "Poppins", sans-serif;
 }
-.name-holder{
+.name-holder {
   background-image: none;
   margin: 30px;
   background: none;
 }
-.email{
+.email {
   margin: 10px;
 }
 .subject {
   margin: 10px;
   color: white;
+}
+
+.submit-btn {
+  font-family: "Poppins", sans-serif;
+  background: none;
+  
 }
