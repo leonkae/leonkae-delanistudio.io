@@ -225,3 +225,9 @@ body {
   text-decoration: none;
   background: none;
 }
+/* contact us */
+ 
+ .name-wrapper{
+  display: flex;
+  font-family: "Poppins", sans-serif;
+} 
