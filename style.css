@@ -221,28 +221,18 @@ body {
   background: none;
 }
 /* contact us */
-
-.name-wrapper {
+.form{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
   justify-content: center;
   align-items: center;
-  display: flex;
-  font-family: "Poppins", sans-serif;
-}
-.name-holder {
-  background-image: none;
-  margin: 30px;
-  background: none;
-}
-.email {
-  margin: 10px;
-}
-.subject {
-  margin: 10px;
-  color: white;
 }
 
-.submit-btn {
-  font-family: "Poppins", sans-serif;
-  background: none;
-  
+.name-holder{
+  margin: 10px;
 }
+.email-holder{
+  margin: 10px;
+}
+
