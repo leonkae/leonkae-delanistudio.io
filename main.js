@@ -18,7 +18,15 @@ function portfolioHover() {
   });
 }
 
+let form = document.getElementsByClassName(".form")
+FormData.addEventListener("submit",ValidateForm);
 
+function FormValidate(event){
+  event.preventDefault();
+  let name = document.get
+
+
+}
 
 
 
