@@ -18,13 +18,30 @@ function portfolioHover() {
   });
 }
 
-let form = document.getElementsByClassName(".form")
-FormData.addEventListener("submit",ValidateForm);
+// let form = document.getElementsByClassName(".form")
+// FormData.addEventListener("submit",ValidateForm);
 
-function FormValidate(event){
-  event.preventDefault();
-  let name = document.get
+// function FormValidate(event){
+//   event.preventDefault();
+//   let name = document.get
 
+
+// }
+let name = document.getElementById("name").value;
+console.log(name)
+let form = document.querySelector(".form");
+form.addEventListener("submit",function(x){
+  x.preventDefault()
+  checkedInput()
+
+})
+
+function checkedInput(){
+  if (!isNaN (name)){
+    alert ("invalid")
+  }else{
+    alert(`$(name)  we have received your message`);
+  }
 
 }
 
