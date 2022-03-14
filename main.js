@@ -18,16 +18,7 @@ function portfolioHover() {
   });
 }
 
-// let form = document.getElementsByClassName(".form")
-// FormData.addEventListener("submit",ValidateForm);
-
-// function FormValidate(event){
-//   event.preventDefault();
-//   let name = document.get
-
-
-// }
-let name = document.getElementById("name").value;
+ let name = document.getElementById("name").value;
 console.log(name)
 let form = document.querySelector(".form");
 form.addEventListener("submit",function(x){
