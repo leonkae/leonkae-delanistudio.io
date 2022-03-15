@@ -19,7 +19,7 @@ function portfolioHover() {
 }
 
  let name = document.getElementById("name").value;
-console.log(name)
+// console.log(name)
 let form = document.querySelector(".form");
 form.addEventListener("submit",function(x){
   x.preventDefault()
