@@ -28,15 +28,16 @@ form.addEventListener("submit",function(x){
 })
 
 function checkedInput(){
-  if (!isNaN (name)){
+  if (!isNaN ("name")){
     alert ("invalid")
   }else{
-    alert(`$(name)  we have received your message`);
+    alert(`we have received your message`);
   }
 
 }
 
 
 
+//  alert(`$(name)  we have received your message`);
 
 
